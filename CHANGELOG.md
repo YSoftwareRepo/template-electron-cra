@@ -1,4 +1,19 @@
 # CHANGELOG
+## tecra v0.7.0 (Unreleased)
+### Features
+
+### Changes
+
+- [Build] Make renderer typescript config simpler
+
+### Breaking Changes
+
+### Dependency Changes
+
+- New
+    - error-oop                                 v0.4.0
+- Remove
+    - node-errors-pro                           v0.2.0
 
 ## tecra v0.6.0 (2021-08-01)
 ### Features
