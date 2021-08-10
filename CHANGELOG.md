@@ -2,9 +2,18 @@
 ## tecra v0.7.0 (Unreleased)
 ### Features
 
+- Add issue templates
+- [Fluentui] Add `FluentuiProvider` and use it in `Window`
+
 ### Changes
 
 - [Build] Make renderer typescript config simpler
+- [Types] These type declarations will be moved into global declaration
+    - `ReactStyleFunc`
+    - `IClientAreaSize`
+    - `IElementPositionSize`
+    - `IElementSize`
+- Remove premature performance optimization
 
 ### Breaking Changes
 
