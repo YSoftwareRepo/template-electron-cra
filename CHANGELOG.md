@@ -2,20 +2,30 @@
 ## tecra v0.7.0 (Unreleased)
 ### Features
 
-- Add issue templates
+- [Github] Add issue templates
 - [Fluentui] Add `FluentuiProvider` and use it in `Window`
+- [ESlint] Add rule `@typescript-eslint/no-empty-function`
+- [Github] Use action `setup-node@v2`
 
 ### Changes
 
 - [Build] Make renderer typescript config simpler
-- [Types] These type declarations will be moved into global declaration
+- [Types] These type declarations are moved into global declaration
     - `ReactStyleFunc`
     - `IClientAreaSize`
     - `IElementPositionSize`
     - `IElementSize`
-- Remove premature performance optimization
+- [Code] Remove premature performance optimization
+- [ESlint] Only enable object variable declarator
+- [Scripts] Add paths.ts and deprecated.ts, `md-working-dir`, `run-build` and `run-unpacked` are moved into scripts/npm/
 
 ### Breaking Changes
+
+- [Build] typescript configurations has been changed:
+    - Add new typescript configuration for eslint
+    - Move the typescript configuration used for scripts
+    - Add multi typescript configurations for common, main, renderer code
+    - Root tsconfig.json is removed
 
 ### Dependency Changes
 
