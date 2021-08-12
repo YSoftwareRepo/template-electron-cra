@@ -5,8 +5,8 @@
 
 # Scripts
 
-/scripts/tsconfigs/tsconfig.renderer.json
 /scripts/**/*.js
+/scripts/tsconfigs/tsconfig.renderer.json
 
 # Running and Testing
 
