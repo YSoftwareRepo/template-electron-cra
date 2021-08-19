@@ -53,6 +53,9 @@
     "engines": {
         "node": ">=16"
     },
+    "workspaces": [
+        "packages/eslint-config"
+    ],
     "dependencies": {
         "@fluentui/react": "^8.28.2",
         "@reduxjs/toolkit": "^1.6.1",

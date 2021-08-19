@@ -1,17 +1,15 @@
-# Production
+# Compilation
 
-/build
-/release
+build
+release
 
-# Scripts
-
-/scripts/**/*.js
+**/scripts/**/*.js
 
 # Typescript Configurations
 
-/src/renderer/tsconfig.json
+src/renderer/tsconfig.json
 
 # Running and Testing
 
-/coverage
-/working
+coverage
+working
