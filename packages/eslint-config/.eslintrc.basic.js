@@ -283,6 +283,9 @@ module.exports = {
         // https://typescript-eslint.io/rules/no-unused-expressions
         '@typescript-eslint/no-unused-expressions': 'error',
 
+        // https://typescript-eslint.io/rules/no-unused-vars
+        '@typescript-eslint/no-unused-vars': ['error', { vars: 'all', args: 'after-used', ignoreRestSiblings: true }],
+
         // https://typescript-eslint.io/rules/no-use-before-define
         '@typescript-eslint/no-use-before-define': 'error',
 
