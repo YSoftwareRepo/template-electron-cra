@@ -197,9 +197,6 @@ module.exports = {
         // https://eslint.org/docs/latest/rules/no-unused-expressions
         'no-unused-expressions': 'off',
 
-        // https://eslint.org/docs/latest/rules/no-use-before-define
-        'no-use-before-define': 'off',
-
         // https://eslint.org/docs/latest/rules/no-void
         'no-void': 'off',
 
@@ -287,6 +284,7 @@ module.exports = {
         '@typescript-eslint/no-unused-vars': ['error', { vars: 'all', args: 'after-used', ignoreRestSiblings: true }],
 
         // https://typescript-eslint.io/rules/no-use-before-define
+        'no-use-before-define': 'off',
         '@typescript-eslint/no-use-before-define': 'error',
 
         // https://typescript-eslint.io/rules/no-useless-constructor
