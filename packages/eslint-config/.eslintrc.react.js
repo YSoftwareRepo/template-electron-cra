@@ -44,6 +44,9 @@ module.exports = {
         // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-props-no-spreading.md
         'react/jsx-props-no-spreading': 'off',
 
+        // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/no-unescaped-entities.md
+        'react/no-unescaped-entities': 'off',
+
         // Disable because we only use TypeScript to write components, no need to use `prop-types`
         // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/prop-types.md
         'react/prop-types': 'off',
