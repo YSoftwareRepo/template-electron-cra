@@ -47,10 +47,8 @@ const naming = [
 
 module.exports = {
     env: {
-        browser: true,
         es2020: true,
         jest: true,
-        node: true,
     },
     extends: [
         'airbnb-base',
@@ -64,7 +62,7 @@ module.exports = {
         'plugin:jest/style',
     ],
     ignorePatterns: ['*.cjs', '*.js', '*.mjs'],
-    plugins: ['@typescript-eslint', 'import', 'jest', 'node', 'prettier'],
+    plugins: ['@typescript-eslint', 'import', 'jest', 'prettier'],
 
     settings: {
         // Append 'ts' extensions to Airbnb 'import/extensions' setting
