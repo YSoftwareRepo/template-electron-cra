@@ -5,6 +5,8 @@
 - Add `ts-pattern` to perform pattern matching
 - Use `swc` to do unit testing
 - Exclude `__mocks__` folders in tsconfig and json config
+- Add `IpcMainSenderAPI` for defining main-to-renderer ipc APIs
+- use `createHashRouter` data router
 
 ### Bug Fixes
 
@@ -40,7 +42,6 @@
   - `eslint-plugin-react`               v7.32.2   -> v7.33.2
   - `jest`                              v29.5.0   -> v29.6.4
   - `jest-environment-jsdom`            v29.5.0   -> v29.6.4
-  - `jest-resolve`                      v29.5.0   -> v29.6.4
   - `lint-staged`                       v13.2.2   -> v14.0.1
   - `postcss`                           v8.4.24   -> v8.4.29
   - `prettier`                          v2.8.8    -> v3.0.3
@@ -64,6 +65,7 @@
   - `@types/testing-library__jest-dom`  v5.14.6
   - `babel-jest`                        v29.5.0
   - `babel-preset-react-app`            v10.0.1
+  - `jest-resolve`                      v29.5.0
   - `react-app-polyfill`                v3.0.0
 
 ## template-electron-react v0.13.0 (2023-09-01)
